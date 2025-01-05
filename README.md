@@ -12,4 +12,4 @@ This project is focused on operating systems (OS) concepts and involves understa
      - Measure and compare the performance of operations in the VM, container, and directly on the machine.
      - Gather data, create a graph comparing the results, and submit the graph along with the source code.
 
-The project aims to deepen your understanding of OS internals, such as system calls, virtualization, and performance benchmarking using tools like `strace`, `gettimeofday`, and VM/container setups.
+The project aims to deepen understanding of OS internals, such as system calls, virtualization, and performance benchmarking using tools like `strace`, `gettimeofday`, and VM/container setups.
