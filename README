@@ -1,0 +1,31 @@
+yuval.ezraty, amithalbreich
+Yuval Ezraty (316484468), Amit Halbreich (208917393)
+EX: 1
+
+FILES:
+osm.cpp
+Makefile
+README
+ex1_graph.png
+
+REMARKS:
+
+
+ANSWERS:
+
+Q1:
+The program does the following operations:
+1. creates a directory called "welcome_dir_1" under the current working directory, with full access for all users
+(read, write, execute).
+2. creates a sub-directory called "welcome_dir_2" under "welcome_dir_1", with full access for all users
+(read, write, execute).
+3. Allocates memory for the program's data segment and expands it according to the program's memory consumption.
+4. Creates a file called "welcome_file.txt" under "welcome_dir_2" and opens it with write only permissions
+5. Opens the /etc/localtime system file with read only permissions,
+reads the file, reads again the last few bytes from the file and then closes it.
+6. writes the string "welcome to OS-2023" to the file "welcome_file.txt" and closes it
+7. removes the file "welcome_file.txt"
+8. attempts to remove the directories "welcome_dir_1" and "welcome_dir_2" using unlink (which doesn't work on
+directories)
+9. successfully removes the directories "welcome_dir_1" and "welcome_dir_2" using rmdir
+10. closes all the threads of the process and exits with status 0
